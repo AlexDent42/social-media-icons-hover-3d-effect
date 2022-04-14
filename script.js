@@ -15,3 +15,13 @@ for(let item of list) {
         bg.style.backgroundColor = '#fff';
     })
 }
+
+//vanilla-tilt.min.js need connection for this script 
+
+VanillaTilt.init(document.querySelectorAll(".sci li a"), {
+    max: 30,
+    speed: 400,
+    glare:true,
+    'max-glare':1,
+});
+

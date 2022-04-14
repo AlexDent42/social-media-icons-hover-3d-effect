@@ -52,6 +52,10 @@
     transform: translate(-50%, calc(-50% + 150px));
 }
 
+.js-tilt-glare {
+    border-radius: 10px;
+}
+
 .sci li a {
     position: relative; 
     display: inline-block;
@@ -93,6 +97,7 @@
     pointer-events: none;
 }
 
-.sci li a:hover .fa {
+.sci li a:hover .fa-brands {
     color: var(--white-color);  
+    transform: scale(1.75) translateZ(50px);
 }
