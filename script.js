@@ -8,3 +8,10 @@ for(let item of list) {
         bg.style.backgroundColor = color;
     })
 }
+
+for(let item of list) {
+    item.addEventListener('mouseleave', function(event){
+        let color = event.target.getAttribute('data-color');
+        bg.style.backgroundColor = '#fff';
+    })
+}
